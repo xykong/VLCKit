@@ -13,7 +13,6 @@
 		7D7B6C4B1B70C41700E879CF /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7B6C4A1B70C41700E879CF /* VideoToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		7D7B6C4D1B70C41D00E879CF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7B6C4C1B70C41D00E879CF /* CoreMedia.framework */; };
 		7D7B6C4F1B70C43200E879CF /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7B6C4E1B70C43200E879CF /* CoreVideo.framework */; };
-		7D7B6C7D1B70D0BA00E879CF /* libMobileVLCKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7B6C7C1B70D0BA00E879CF /* libMobileVLCKit.a */; };
 		7D8745B8183BABE800FD09E0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D8745B6183BABE800FD09E0 /* AudioToolbox.framework */; };
 		7D8745BB183BABEE00FD09E0 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D8745BA183BABEE00FD09E0 /* OpenGLES.framework */; };
 		7D8745BD183BAC0D00FD09E0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D8745BC183BAC0D00FD09E0 /* CFNetwork.framework */; };
@@ -35,6 +34,7 @@
 		7DEBFE85183BFC6300BC53D5 /* VDLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEBFE83183BFC6300BC53D5 /* VDLMainViewController.m */; };
 		7DEBFE86183BFC6300BC53D5 /* VDLMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DEBFE84183BFC6300BC53D5 /* VDLMainViewController.xib */; };
 		D4771D93189848E70087441B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4771D92189848E70087441B /* Security.framework */; };
+		E76E79B01F6839640004840C /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76E79AF1F6839640004840C /* MobileVLCKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,7 +46,6 @@
 		7D7B6C4A1B70C41700E879CF /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		7D7B6C4C1B70C41D00E879CF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		7D7B6C4E1B70C43200E879CF /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
-		7D7B6C7C1B70D0BA00E879CF /* libMobileVLCKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMobileVLCKit.a; path = "../../build/Debug-iphoneos/libMobileVLCKit.a"; sourceTree = "<group>"; };
 		7D8745B4183BA8F900FD09E0 /* libMobileVLCKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMobileVLCKit.a; path = "../../build/Release-iphonesimulator/libMobileVLCKit.a"; sourceTree = "<group>"; };
 		7D8745B6183BABE800FD09E0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		7D8745B7183BABE800FD09E0 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
@@ -74,6 +73,7 @@
 		7DEBFE83183BFC6300BC53D5 /* VDLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDLMainViewController.m; sourceTree = SOURCE_ROOT; };
 		7DEBFE84183BFC6300BC53D5 /* VDLMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VDLMainViewController.xib; sourceTree = SOURCE_ROOT; };
 		D4771D92189848E70087441B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E76E79AF1F6839640004840C /* MobileVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileVLCKit.framework; path = ../../../build/MobileVLCKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D7B6C7D1B70D0BA00E879CF /* libMobileVLCKit.a in Frameworks */,
 				7D7B6C4F1B70C43200E879CF /* CoreVideo.framework in Frameworks */,
 				7D7B6C4D1B70C41D00E879CF /* CoreMedia.framework in Frameworks */,
 				7D7B6C4B1B70C41700E879CF /* VideoToolbox.framework in Frameworks */,
@@ -90,6 +89,7 @@
 				7DEBFE81183BF0AA00BC53D5 /* AVFoundation.framework in Frameworks */,
 				7DEBFE7F183BEE7500BC53D5 /* MediaPlayer.framework in Frameworks */,
 				7D8745C8183BACBF00FD09E0 /* CoreGraphics.framework in Frameworks */,
+				E76E79B01F6839640004840C /* MobileVLCKit.framework in Frameworks */,
 				7D8745C7183BACAE00FD09E0 /* QuartzCore.framework in Frameworks */,
 				7D8745C3183BAC2700FD09E0 /* libiconv.dylib in Frameworks */,
 				7D8745C1183BAC2300FD09E0 /* libbz2.dylib in Frameworks */,
@@ -125,7 +125,7 @@
 		7D11B368183BA71600FF0D25 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7D7B6C7C1B70D0BA00E879CF /* libMobileVLCKit.a */,
+				E76E79AF1F6839640004840C /* MobileVLCKit.framework */,
 				7D7B6C4E1B70C43200E879CF /* CoreVideo.framework */,
 				7D7B6C4C1B70C41D00E879CF /* CoreMedia.framework */,
 				7D7B6C4A1B70C41700E879CF /* VideoToolbox.framework */,
@@ -338,6 +338,7 @@
 		7D11B38A183BA71600FF0D25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = ../../../build;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dropin-Player/Dropin-Player-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -353,6 +354,7 @@
 		7D11B38B183BA71600FF0D25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = ../../../build;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dropin-Player/Dropin-Player-Prefix.pch";
 				HEADER_SEARCH_PATHS = (

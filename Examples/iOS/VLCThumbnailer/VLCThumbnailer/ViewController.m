@@ -56,6 +56,7 @@
     [_activityIndicatorView startAnimating];
     VLCLibrary *sharedLibrary = [VLCLibrary sharedLibrary];
     sharedLibrary.debugLogging = YES;
+//    VLCMedia *media = [VLCMedia mediaWithURL:[NSURL URLWithString:@"http://streams.videolan.org/streams/mp4/Mr_MrsSmith-h264_aac.mp4"]];
     VLCMedia *media = [VLCMedia mediaWithURL:[NSURL URLWithString:@"http://streams.videolan.org/streams/mp4/Mr_MrsSmith-h264_aac.mp4"]];
     media.delegate = self;
     VLCMediaThumbnailer *thumbnailer = [VLCMediaThumbnailer thumbnailerWithMedia:media delegate:self andVLCLibrary:[VLCLibrary sharedLibrary]];

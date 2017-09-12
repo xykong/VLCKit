@@ -32,6 +32,7 @@
 		7D8745C8183BACBF00FD09E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D11B36D183BA71600FF0D25 /* CoreGraphics.framework */; };
 		7DF6A7211EBA61B600B9E46E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF6A7201EBA61B600B9E46E /* AVFoundation.framework */; };
 		D4771D95189849C80087441B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4771D94189849C80087441B /* Security.framework */; };
+		E76E79BC1F6840250004840C /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76E79BB1F6840250004840C /* MobileVLCKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		7D8745C6183BACAE00FD09E0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7DF6A7201EBA61B600B9E46E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D4771D94189849C80087441B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E76E79BB1F6840250004840C /* MobileVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileVLCKit.framework; path = ../../../build/MobileVLCKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				7D8745C1183BAC2300FD09E0 /* libbz2.dylib in Frameworks */,
 				7D8745BF183BAC1200FD09E0 /* CoreText.framework in Frameworks */,
 				7D8745BD183BAC0D00FD09E0 /* CFNetwork.framework in Frameworks */,
+				E76E79BC1F6840250004840C /* MobileVLCKit.framework in Frameworks */,
 				7D8745BB183BABEE00FD09E0 /* OpenGLES.framework in Frameworks */,
 				7D11B36A183BA71600FF0D25 /* UIKit.framework in Frameworks */,
 				7D11B36C183BA71600FF0D25 /* Foundation.framework in Frameworks */,
@@ -116,6 +119,7 @@
 		7D11B368183BA71600FF0D25 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E76E79BB1F6840250004840C /* MobileVLCKit.framework */,
 				7DF6A7201EBA61B600B9E46E /* AVFoundation.framework */,
 				7D7B6C561B70C46400E879CF /* CoreMedia.framework */,
 				7D7B6C541B70C45F00E879CF /* CoreVideo.framework */,
@@ -194,6 +198,11 @@
 				CLASSPREFIX = VDL;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = VideoLAN;
+				TargetAttributes = {
+					7D11B365183BA71600FF0D25 = {
+						DevelopmentTeam = 75GAHG3SZQ;
+					};
+				};
 			};
 			buildConfigurationList = 7D11B361183BA71600FF0D25 /* Build configuration list for PBXProject "SimplePlayback" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -321,6 +330,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = 75GAHG3SZQ;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = ../../../build;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimplePlayback/SimplePlayback-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -342,6 +352,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = 75GAHG3SZQ;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = ../../../build;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimplePlayback/SimplePlayback-Prefix.pch";
 				HEADER_SEARCH_PATHS = (

@@ -46,7 +46,6 @@
 		3A622B971A899CF400A12489 /* GLEssentialsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A622B731A899CDE00A12489 /* GLEssentialsWindowController.m */; };
 		3A622B981A899E5000A12489 /* OpenGLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A622B6C1A899CDE00A12489 /* OpenGLRenderer.m */; };
 		7D2F3F2E1BBD8E08008910EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F3F2D1BBD8E08008910EE /* ViewController.m */; };
-		7D2F3F391BBD9246008910EE /* libMobileVLCKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2F3F381BBD9246008910EE /* libMobileVLCKit.a */; };
 		7D2F3F3B1BBD924F008910EE /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2F3F3A1BBD924F008910EE /* CoreVideo.framework */; };
 		7D2F3F3D1BBD9253008910EE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2F3F3C1BBD9253008910EE /* CoreMedia.framework */; };
 		7D2F3F3F1BBD9258008910EE /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2F3F3E1BBD9258008910EE /* VideoToolbox.framework */; };
@@ -64,6 +63,7 @@
 		7D2F3F571BBD9299008910EE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2F3F561BBD9298008910EE /* AudioToolbox.framework */; };
 		7D2F3F591BBD929D008910EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2F3F581BBD929D008910EE /* UIKit.framework */; };
 		7D2F3F5B1BBD92A2008910EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2F3F5A1BBD92A2008910EE /* Foundation.framework */; };
+		E76E79BA1F683EEA0004840C /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76E79B91F683EEA0004840C /* MobileVLCKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -113,7 +113,6 @@
 		3A622B801A899CDE00A12489 /* vectorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vectorUtil.h; sourceTree = "<group>"; };
 		7D2F3F2C1BBD8E08008910EE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7D2F3F2D1BBD8E08008910EE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7D2F3F381BBD9246008910EE /* libMobileVLCKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMobileVLCKit.a; path = "../../build/Debug-iphoneos/libMobileVLCKit.a"; sourceTree = "<group>"; };
 		7D2F3F3A1BBD924F008910EE /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		7D2F3F3C1BBD9253008910EE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		7D2F3F3E1BBD9258008910EE /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
@@ -131,6 +130,7 @@
 		7D2F3F561BBD9298008910EE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		7D2F3F581BBD929D008910EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7D2F3F5A1BBD92A2008910EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E76E79B91F683EEA0004840C /* MobileVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileVLCKit.framework; path = ../../../build/MobileVLCKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +147,7 @@
 				7D2F3F4F1BBD9282008910EE /* libbz2.tbd in Frameworks */,
 				7D2F3F4D1BBD927C008910EE /* libiconv.tbd in Frameworks */,
 				7D2F3F4B1BBD9276008910EE /* QuartzCore.framework in Frameworks */,
+				E76E79BA1F683EEA0004840C /* MobileVLCKit.framework in Frameworks */,
 				7D2F3F491BBD9272008910EE /* CoreGraphics.framework in Frameworks */,
 				7D2F3F471BBD926D008910EE /* MediaPlayer.framework in Frameworks */,
 				7D2F3F451BBD9269008910EE /* AVFoundation.framework in Frameworks */,
@@ -155,7 +156,6 @@
 				7D2F3F3F1BBD9258008910EE /* VideoToolbox.framework in Frameworks */,
 				7D2F3F3D1BBD9253008910EE /* CoreMedia.framework in Frameworks */,
 				7D2F3F3B1BBD924F008910EE /* CoreVideo.framework in Frameworks */,
-				7D2F3F391BBD9246008910EE /* libMobileVLCKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +315,7 @@
 		7D2F3F5C1BBD92DA008910EE /* iOS Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E76E79B91F683EEA0004840C /* MobileVLCKit.framework */,
 				7D2F3F5A1BBD92A2008910EE /* Foundation.framework */,
 				7D2F3F581BBD929D008910EE /* UIKit.framework */,
 				7D2F3F561BBD9298008910EE /* AudioToolbox.framework */,
@@ -332,7 +333,6 @@
 				7D2F3F3E1BBD9258008910EE /* VideoToolbox.framework */,
 				7D2F3F3C1BBD9253008910EE /* CoreMedia.framework */,
 				7D2F3F3A1BBD924F008910EE /* CoreVideo.framework */,
-				7D2F3F381BBD9246008910EE /* libMobileVLCKit.a */,
 			);
 			name = "iOS Frameworks";
 			sourceTree = "<group>";
@@ -595,6 +595,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = ../../../build;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					TARGET_IOS,
@@ -617,6 +618,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = ../../../build;
 				GCC_PREPROCESSOR_DEFINITIONS = TARGET_IOS;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
